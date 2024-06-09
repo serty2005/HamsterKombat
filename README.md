@@ -33,6 +33,4 @@ Bearer, всё что после Bearer - токен.
 7. Для запуска в терминале выполнить команду: `python3 bot.py`
 
 
-Обсудить можно здесь: https://t.me/+DzfPvutZSetmZWE6
-
-Для донатов: USDT TRC20: TWBrbZxwsTq9EdCfxTbjzriNUWKFEuRx8t
+Нагло взято тут: https://t.me/+DzfPvutZSetmZWE6
