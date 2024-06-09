@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  fnrefresher:
+    build:
+      context: .
+    environment:
+      HAMSTER_USER1: serty
+      HAMSTER_USER2: unset
+      HAMSTER_TOKEN1: 1717945300096O3epuowktl9CHu2G4Limphf2MynFrtVoJNfS2hv3yxXmy75oEwyhspJhAAQ3jHJ9665599275
+      HAMSTER_TOKEN2: 111erdUNSET
