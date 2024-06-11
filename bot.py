@@ -12,9 +12,9 @@ def main():
             client.sync()
             client.claim_daily_cipher()
             client.tap()
-            # client.buy_upgrades()
+            client.buy_upgrades()
             client.check_task()
-            # client.claim_combo_reward()
+            client.claim_combo_reward()
             if client.is_taps_boost_available:
                 client.boost(BOOST_ENERGY)
             logging.info(client.log_prefix + " ".join(f"{k}: {v} |" for k, v in client.stats.items()))
