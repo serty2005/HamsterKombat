@@ -6,3 +6,5 @@ TOKENS = [
     {'name': os.getenv("HAMSTER_USER3"), "token": os.getenv("HAMSTER_TOKEN3")},
     {'name': os.getenv("HAMSTER_USER4"), "token": os.getenv("HAMSTER_TOKEN4")},
 ]
+
+TOKENS = [token for token in TOKENS if token['name'] and token['token']]
