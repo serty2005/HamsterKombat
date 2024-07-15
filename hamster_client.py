@@ -183,7 +183,7 @@ class HamsterClient(Session):
                 if 'condition' in item :
                     item.pop('condition')
                 item['profitness'] = item['profitPerHourDelta'] / item['price']
-                if item['profitness'] >= 0.0008:
+                if item['profitness'] >= 0.0003:
                     prepared.append(item)
         if prepared:
             sorted_items = [i for i in sorted_by_profit_per_coin(prepared)[:10] if i['price'] <= self.balance]
